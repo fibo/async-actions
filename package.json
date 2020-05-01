@@ -1,6 +1,6 @@
 {
   "name": "async-actions",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "tiny redux action names helper",
   "main": "async-actions.js",
   "scripts": {
