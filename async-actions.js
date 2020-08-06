@@ -1,9 +1,5 @@
-function asyncActions (NAME) {
-  return {
-    FAILURE: `${NAME}_FAILURE`,
-    REQUEST: `${NAME}_REQUEST`,
-    SUCCESS: `${NAME}_SUCCESS`
-  }
-}
-
-module.exports = exports.default = asyncActions
+export default function asyncActions(NAME){return{
+  REQUEST:`${NAME}_REQUEST`,
+  SUCCESS:`${NAME}_SUCCESS`,
+  FAILURE:`${NAME}_FAILURE`
+}}

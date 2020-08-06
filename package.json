@@ -1,8 +1,13 @@
 {
   "name": "async-actions",
+  "type": "module",
   "version": "0.1.0",
   "description": "tiny redux action names helper",
   "main": "async-actions.js",
+  "module": "async-actions.js",
+  "engines": {
+    "node": ">=0.12"
+  },
   "scripts": {
     "postversion": "git push origin v${npm_package_version}; npm publish",
     "test": "echo \"Error: no test specified\" && exit 1"
